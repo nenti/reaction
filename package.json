@@ -75,7 +75,7 @@
     "eslint-plugin-react": "^6.1.2",
     "js-yaml": "^3.6.1",
     "react-addons-test-utils": "^15.3.1",
-    "wdio-mocha-framework": "^0.4.0",
+    "wdio-mocha-framework": "github.com:Capt-Slow/wdio-mocha-framework",
     "webdriverio": "^4.2.3"
   },
   "postcss": {
