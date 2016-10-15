@@ -984,8 +984,10 @@ Meteor.methods({
       };
       update = {
         $addToSet: {
-          "billing.paymentMethod": paymentMethod,
-          "billing.invoice": invoice
+          billing: {
+            paymentMethod: paymentMethod,
+            invoice: invoice
+          }
         }
       };
     }
